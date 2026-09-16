@@ -1,0 +1,21 @@
+# Python & bytecode
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Personal writing — never commit (cross-cutting safety net; the per-component
+# .gitignores also carry their own rules)
+*hexhillbilly*
+daisy_2015*
+*_corpus.txt
+brain_corpus.txt
+
+# Generated artifacts
+VALVE_REGISTRY.json
+*.index
+brain_lines.json
+
+# OS
+.DS_Store

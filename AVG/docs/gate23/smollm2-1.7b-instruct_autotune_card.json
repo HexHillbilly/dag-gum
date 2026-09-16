@@ -1,0 +1,26 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "band_low": 6.0009,
+  "degenerate_p90": 2.8859,
+  "prose_p10": 13.1165,
+  "n_greedy_loopers": 19,
+  "n_sampling_loopers": 10,
+  "shared_defaults": {
+    "suppression_strength": 5.0,
+    "eos_guard": true
+  },
+  "greedy": {
+    "n": 19,
+    "rescue": 18,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7254,
+    "mean_tb_active": 100.63
+  },
+  "sampling": {
+    "n": 10,
+    "rescue": 9,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7696,
+    "mean_tb_active": 96.8
+  }
+}

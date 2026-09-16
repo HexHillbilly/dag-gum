@@ -1,0 +1,26 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "band_low": 7.65,
+  "degenerate_p90": 2.9752,
+  "prose_p10": 17.4249,
+  "n_greedy_loopers": 23,
+  "n_sampling_loopers": 14,
+  "shared_defaults": {
+    "suppression_strength": 5.0,
+    "eos_guard": true
+  },
+  "greedy": {
+    "n": 23,
+    "rescue": 22,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7089,
+    "mean_tb_active": 87.61
+  },
+  "sampling": {
+    "n": 14,
+    "rescue": 13,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7888,
+    "mean_tb_active": 98.29
+  }
+}

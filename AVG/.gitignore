@@ -1,0 +1,37 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# Model Weights & SAE Checkpoints
+*.pt
+*.safetensors
+*.bin
+*.onnx
+
+# Data & Logs
+*.log
+*.csv
+outputs/
+data/*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+*.egg-info/
+build/
+
+# Gate 2.1a certified fixture: pinned provenance artifacts
+!data/t2s_bench/
+data/t2s_bench/*
+!data/t2s_bench/valid_subset_200.jsonl
+!data/t2s_bench/valid_subset_200.cert.txt
+!data/t2s_bench/valid_subset_200.jsonl.sha256
+!data/t2s_bench/valid.source

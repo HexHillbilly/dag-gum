@@ -1,0 +1,10 @@
+paper: arXiv:2603.03790
+project_page: https://t2s-bench.github.io/T2S-Bench-Page/
+dataset: T2SBench/T2S-Bench-MR
+split: train
+full_release_milestone: 1,800 samples (RFC-003 §5)
+vendored_rows: 500
+sha256_full: 5c78b00e14c74e2c7a11fe8d78025fb86f2f42d2bf11a8003e1542a9b050f2c4
+sha256_certified_subset: 0f7ccae3a302fb5f5c9ddd9b62206584904edb24764ee2880506e479b7da6d53
+certification_excluded: 30
+certification_assertion: 0/200 trippers

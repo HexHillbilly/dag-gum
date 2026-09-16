@@ -1,0 +1,26 @@
+{
+  "model": "NousResearch/Meta-Llama-3-8B-Instruct",
+  "band_low": 7.8703,
+  "degenerate_p90": 2.9653,
+  "prose_p10": 18.0221,
+  "n_greedy_loopers": 21,
+  "n_sampling_loopers": 16,
+  "shared_defaults": {
+    "suppression_strength": 5.0,
+    "eos_guard": true
+  },
+  "greedy": {
+    "n": 21,
+    "rescue": 20,
+    "eos_death": 0,
+    "mean_delta_d2": 0.6398,
+    "mean_tb_active": 98.62
+  },
+  "sampling": {
+    "n": 16,
+    "rescue": 16,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7717,
+    "mean_tb_active": 121.5
+  }
+}

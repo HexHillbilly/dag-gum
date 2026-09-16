@@ -1,0 +1,38 @@
+# Python Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache & Compilation Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application Logs (Don't commit your proxy output)
+*.log
+proxy.log
+
+# The Raw Brain Data (Keep your personal logs out of version control)
+brain_corpus.txt
+daisy_corpus.txt
+*_corpus.txt
+
+# Personal writing — never commit (owner's essays; private data, incl. any
+# benchmark results that embed retrieved lines)
+*hexhillbilly*
+daisy_2015*
+
+# The Compiled Brain Artifacts (These are built at runtime by compile_brain.py)
+*.index
+daisy.index
+daisy_lines.json
+brain_lines.json
+
+# Generated benchmark results (findings live in docs/*-RESULTS.md)
+scripts/results*.jsonl
+
+# IDE / OS specific files
+.DS_Store
+.idea/
+.vscode/
+BLUEPRINT.md

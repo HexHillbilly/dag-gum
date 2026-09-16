@@ -1,0 +1,26 @@
+{
+  "model": "unsloth/Llama-3.2-1B",
+  "band_low": 8.0421,
+  "degenerate_p90": 2.9733,
+  "prose_p10": 18.4723,
+  "n_greedy_loopers": 26,
+  "n_sampling_loopers": 15,
+  "shared_defaults": {
+    "suppression_strength": 5.0,
+    "eos_guard": true
+  },
+  "greedy": {
+    "n": 26,
+    "rescue": 25,
+    "eos_death": 0,
+    "mean_delta_d2": 0.6472,
+    "mean_tb_active": 101.62
+  },
+  "sampling": {
+    "n": 15,
+    "rescue": 15,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7681,
+    "mean_tb_active": 111.33
+  }
+}

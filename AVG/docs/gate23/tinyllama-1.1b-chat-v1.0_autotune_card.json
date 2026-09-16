@@ -1,0 +1,26 @@
+{
+  "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "band_low": 7.9526,
+  "degenerate_p90": 2.9518,
+  "prose_p10": 18.255,
+  "n_greedy_loopers": 18,
+  "n_sampling_loopers": 13,
+  "shared_defaults": {
+    "suppression_strength": 5.0,
+    "eos_guard": true
+  },
+  "greedy": {
+    "n": 18,
+    "rescue": 17,
+    "eos_death": 0,
+    "mean_delta_d2": 0.7053,
+    "mean_tb_active": 110.67
+  },
+  "sampling": {
+    "n": 13,
+    "rescue": 13,
+    "eos_death": 0,
+    "mean_delta_d2": 0.786,
+    "mean_tb_active": 120.0
+  }
+}

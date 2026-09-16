@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "active-variety-governor"
+version = "2.4.0"
+description = "Real-time, closed-loop residual stream variety governor grounded in cybernetic control theory and Sparse Autoencoders."
+readme = "Readme.md"
+requires-python = ">=3.10"
+license = { text = "GNU AGPLv3 / Commercial Dual-License" }
+authors = [
+    {name = "the owner (HexHillbilly)", email = "HexHillbilly@users.noreply.github.com"},
+]
+keywords = ["mechanistic-interpretability", "sparse-autoencoders", "llm-steering", "cybernetics", "pytorch", "agplv3"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.38.0",
+    "accelerate>=0.27.0",
+    "sae-lens>=3.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black",
+    "ruff",
+]
+
+[project.urls]
+Homepage = "https://github.com/HexHillbilly/active-variety-governor"
+Repository = "https://github.com/HexHillbilly/active-variety-governor.git"
+Issues = "https://github.com/HexHillbilly/active-variety-governor/issues"
+
+[tool.setuptools]
+packages = ["AVG", "AVG.core", "AVG.governor"]
+
+[tool.setuptools.package-dir]
+AVG = "."

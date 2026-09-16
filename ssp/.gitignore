@@ -1,0 +1,37 @@
+# Python Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache & Compilation Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application Logs
+*.log
+proxy.log
+
+# The Raw Brain Data (personal logs never leave the machine)
+brain_corpus.txt
+daisy_corpus.txt
+*_corpus.txt
+
+# Personal writing — never commit (owner's essays; private data, incl. any
+# benchmark results that embed retrieved lines)
+*hexhillbilly*
+daisy_2015*
+
+# Compiled Brain Artifacts (built at runtime by compile_brain.py)
+*.index
+daisy.index
+daisy_lines.json
+brain_lines.json
+
+# Benchmark results (regenerable JSONL; summary numbers live in the research record)
+results_*.jsonl
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
